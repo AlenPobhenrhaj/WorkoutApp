@@ -17,10 +17,9 @@
         android:theme="@style/Theme.WorkoutApp">
         <activity
             android:name=".FinishActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
         </activity>
         <activity
             android:name=".ExerciseActivity"
