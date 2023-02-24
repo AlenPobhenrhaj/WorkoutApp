@@ -233,7 +233,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     override fun onInit(status: Int) {
 
         if (status == TextToSpeech.SUCCESS) {
-            // set UK English as language for tts
+
             val result = tts?.setLanguage(Locale.UK)
 
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
