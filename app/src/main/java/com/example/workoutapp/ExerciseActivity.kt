@@ -32,7 +32,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     // Define variables to store the exercise timer and progress
     private var exerciseTimer: CountDownTimer? = null
     private var exerciseProgress = 0
-    private var exerciseTimerDuration:Long = 3
+    private var exerciseTimerDuration:Long = 1
     private var exerciseList: ArrayList<ExerciseModel>? = null
     private var currentExercisePosition = -1
 
